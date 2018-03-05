@@ -102,19 +102,38 @@ body {
 header {
   width: 100%;
   display: flex;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 h1 {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  text-shadow: 1px 1px #ff99cc;
+  text-shadow: 1.5px 1.5px #ffccff;
   color: #9999ff;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3.intro {
+  color: #ff99cc;
+  text-shadow: 1px 1px #9999ff;
+  align-self: center;
+  padding-bottom: 2%;
+}
+
+.first-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.second-line {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
