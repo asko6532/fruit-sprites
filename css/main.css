@@ -1,0 +1,128 @@
+.icon-sprite, .icon-fruit_0000_cirlclefrut2, .icon-fruit_0001_cirlclefrut, .icon-fruit_0002_2orange2, .icon-fruit_0003_2orange, .icon-fruit_0004_mandarin2, .icon-fruit_0005_mandarin, .icon-fruit_0006_coolfruit2, .icon-fruit_0007_coolfruit, .icon-fruit_0008_pear2, .icon-fruit_0009_pear, .icon-fruit_0010_apple2, .icon-fruit_0011_apple, .icon-fruit_0012_avosomething2, .icon-fruit_0013_avosomething, .icon-fruit_0014_jar2, .icon-fruit_0015_jar, .icon-fruit_0016_grapple2, .icon-fruit_0017_grapple, .icon-fruit_0018_basket2, .icon-fruit_0019_basket {
+  background-image: url('../img/icon-sf98136624f.png');
+  background-repeat: no-repeat;
+}
+
+.icon-fruit_0000_cirlclefrut2 {
+  background-position: 0 0;
+}
+
+.icon-fruit_0001_cirlclefrut {
+  background-position: -256px 0;
+}
+
+.icon-fruit_0002_2orange2 {
+  background-position: -512px 0;
+}
+
+.icon-fruit_0003_2orange {
+  background-position: -768px 0;
+}
+
+.icon-fruit_0004_mandarin2 {
+  background-position: -1024px 0;
+}
+
+.icon-fruit_0005_mandarin {
+  background-position: -1280px 0;
+}
+
+.icon-fruit_0006_coolfruit2 {
+  background-position: -1536px 0;
+}
+
+.icon-fruit_0007_coolfruit {
+  background-position: -1792px 0;
+}
+
+.icon-fruit_0008_pear2 {
+  background-position: -2048px 0;
+}
+
+.icon-fruit_0009_pear {
+  background-position: -2304px 0;
+}
+
+.icon-fruit_0010_apple2 {
+  background-position: -2560px 0;
+}
+
+.icon-fruit_0011_apple {
+  background-position: -2816px 0;
+}
+
+.icon-fruit_0012_avosomething2 {
+  background-position: -3072px 0;
+}
+
+.icon-fruit_0013_avosomething {
+  background-position: -3328px 0;
+}
+
+.icon-fruit_0014_jar2 {
+  background-position: -3584px 0;
+}
+
+.icon-fruit_0015_jar {
+  background-position: -3840px 0;
+}
+
+.icon-fruit_0016_grapple2 {
+  background-position: -4096px 0;
+}
+
+.icon-fruit_0017_grapple {
+  background-position: -4352px 0;
+}
+
+.icon-fruit_0018_basket2 {
+  background-position: -4608px 0;
+}
+
+.icon-fruit_0019_basket {
+  background-position: -4864px 0;
+}
+
+/* .icon-animation {
+	width:256px;
+	height:256px;
+	background: url("../img/icon-sf98136624f.png") left center;
+	animation: play 3s steps(8) infinite;
+}
+*/
+body {
+  background: linear-gradient(60deg, #ffff99, #ffcc99) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Krona One', sans-serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+}
+
+h1 {
+  padding-top: 5%;
+  justify-content: center;
+  margin: 0 auto;
+  text-shadow: 1px 1px #ff99cc;
+  color: #9999ff;
+}
+
+main {
+  display: flex;
+}
+
+.fruit1 {
+  background: url("../img/icon-sf98136624f.png") left center;
+  width: 256px;
+  height: 256px;
+  background-position: 0px;
+}
+
+.fruit1:hover {
+  background-position: -256px;
+}
