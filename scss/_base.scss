@@ -11,7 +11,7 @@ $icon-layout:horizontal;
 */
 
 body {
-	background: linear-gradient(60deg, #ffff99 #ffcc99) no-repeat center fixed;
+	background: linear-gradient(-250deg, #ffffcc #ffff99 #ffcc99) no-repeat center fixed;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -22,11 +22,13 @@ body {
 header {
 	width: 100%;
 	display: flex;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 h1 {
-	padding-top: 5%;
 	justify-content: center;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	text-shadow: 1px 1px #ff99cc;
 	color: #9999ff;
@@ -34,6 +36,8 @@ h1 {
 
 main {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .fruit1 {
@@ -46,3 +50,116 @@ main {
 .fruit1:hover {
 	background-position: -256px;
 }
+
+
+.fruit2 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -512px; 
+}
+
+.fruit2:hover {
+	background-position: -768px;
+}
+
+
+.fruit3 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -1024px; 
+}
+
+.fruit3:hover {
+	background-position: -1280px;
+}
+
+.fruit4 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -1536px; 
+}
+
+.fruit4:hover {
+	background-position: -1792px;
+}
+
+.fruit5 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -2048px; 
+}
+
+.fruit5:hover {
+	background-position: -2304px;
+}
+
+.fruit6 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -2560px; 
+}
+
+.fruit6:hover {
+	background-position: -2816px;
+}
+
+.fruit7 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -3072px; 
+}
+
+.fruit7:hover {
+	background-position: -3328px;
+}
+
+.fruit8 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -3584px; 
+}
+
+.fruit8:hover {
+	background-position: -3840px;
+}
+
+.fruit9 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -4096px; 
+}
+
+.fruit9:hover {
+	background-position: -4352px;
+}
+
+.fruit10 {
+	background: url("../img/icon-sf98136624f.png") left center;
+	width:256px;
+	height:256px;
+	background-position: -4608px; 
+}
+
+.fruit10:hover {
+	background-position: -4864px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
